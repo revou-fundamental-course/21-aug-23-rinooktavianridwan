@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js"></script>
+    <title>Your School</title>
+</head>
+<body>
+    <header>
+        <img class="revoUnav" src="https://images.glints.com/unsafe/180x0/glints-dashboard.s3.amazonaws.com/company-logo/a32f81155cd0d4f16d36aef74f7d2644.png" alt="">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#profile">Our Profile</a></li>
+                <li><a href="#VisiMisi">Vision & Mision</a></li>
+                <li><a href="#MassegeUs">Massege Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="pengungjung" >
+        <section class="profil">
+            <h1 class="center">Welcome, <span id="username"></span>! Welcome to our website. </h1>
+            <h1 class="center">Discover a variety of interesting and informative content to help you on your journey of learning and new discoveries.</h1>
+        </section>
+    </main>
+    <main class="OurProfile">
+        <section class="" id="profile">
+            <h1>Welcome to Our School</h1>
+        </section>
+        <section class="about" >
+            <h3>About Your School</h3>
+            <p>RevoU is an online learning platform that provides courses to improve skills in various fields, 
+                such as technology, business and design. If you want to learn about a particular skill at RevoU, 
+                you can visit their official website or access their platform to see the different courses on offer.</p>
+        </section>  
+    </main>
+    <main class="VisionMision">
+        <section class="" id="VisiMisi">
+            <h1>Vision & Mission</h1>
+        </section>
+        <section class="vision-mission" id="VisiMisi">
+            <h3>Vision & Mission</h3>
+            <p>Education platforms like RevoU have a vision to provide broader and quality access to education to individuals 
+                around the world. Their mission is to provide high-quality courses that help individuals develop new skills or 
+                improve existing ones.</p>
+        </section>
+    </main>
+    <main class="Massage" >
+        <h3 class="Massage" id="MassegeUs">Massage Us</h3>
+    </main>
+    <main class="content">
+        <div>
+            <br>
+            <form id="message-form" action="" method="post">
+                <label for="name">Nama :</label>
+                <input id="name" type="text">
+                
+                <label for="tanggalLahir">Tanggal Lahir :</label>
+                <input type="date" id="tanggalLahir">
+                
+                <label>Jenis Kelamin :</label>
+                <input type="radio" name="jenisKelamin" id="lakiLaki" value="Laki-laki">
+                <label for="lakiLaki">Laki-Laki</label>
+                <input type="radio" name="jenisKelamin" id="perempuan" value="Perempuan">
+                <label for="perempuan">Perempuan</label>
+                
+                <label for="pesan">Pesan : </label>
+                <textarea id="pesan" cols="40" rows="5"></textarea>
+                
+                <br>
+                <input type="submit" value="SUBMIT">
+            </form>
+        </div>
+        <div>
+            <textarea id="message-output" cols="40" rows="10"></textarea>   
+        </div>
+
+    </main>
+    <footer>
+        <p>&copy; Rino Oktavian Ridwan</p>
+    </footer>
+    
+</body>
+</html>

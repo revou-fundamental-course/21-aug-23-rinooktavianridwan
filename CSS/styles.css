@@ -1,0 +1,142 @@
+/* General Styles */
+h1{
+    height: 10px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+nav ul {
+    display: inline;
+    list-style: none;
+    padding: 0;
+    margin-right: 2rem;
+}
+
+nav li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav li a{
+    color: white;
+}
+
+main {
+    padding: 2rem;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: right;
+    padding: 1rem;
+}
+
+/* Specific Styles */
+.banner {
+    background-size: cover;
+    background-position: center;
+}
+
+.about, .vision-mission {
+    padding: 2rem;
+    border: 1px solid black;
+    margin-top: 2rem;
+}
+
+.content{
+    flex-direction: row; 
+    display: flex;
+    background-color: yellow;
+}
+
+.content>div{
+    display: flex; 
+    flex: 1; 
+    align-content: center; 
+    justify-content: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="datetime-local"],
+textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+.revoUnav{
+    width: 50px;
+    height: 50px;
+}
+
+.center{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.pengungjung{
+    padding-top: 5rem;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-bottom: 0%;
+    border-bottom:  1px black;
+}
+
+.profil{
+    padding-top: 1rem;
+    background-color: rgb(214, 142, 7);
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px black;
+
+}
+
+.OurProfile{
+    background-color: rgb(255, 221, 0);
+}
+
+.VisionMision{
+    background-color: orange;
+}
+
+.Massage{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 213, 0);
+}
+
